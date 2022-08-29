@@ -1,0 +1,139 @@
+@import url('https://rsms.me/inter/inter.css');
+.navtext{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    
+
+    color: #DEEBF8;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #918E9B;
+    padding: 30px 25px;
+   
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    height: 90px;
+    padding: 30px 25px;
+}
+.line{
+  height:1px;
+}
+body {
+    font-family: "Inter";
+    
+  }
+ 
+  .reactlogo{
+    width: 158px;
+height: 28.93px;
+  }
+.head1{
+padding: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 39.06px;
+line-height: 47px;
+letter-spacing: -0.05em;
+text-align: left;
+
+  }
+ 
+  .listtext{
+    padding: 15px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: left;
+
+  }
+  .tog{
+    display: flex;
+    align-items: center;
+}
+
+.tog p {
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+
+.togslider {
+    width: 25px;
+    height: 13px;
+    background-color: #2B283A;
+    border-radius: 2rem;
+    margin-inline: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    box-sizing: content-box;
+}
+
+nav.dark .togslider {
+    border-color: white;
+    background-color: #F5F5F5;
+}
+
+.togcircle {
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+nav.dark .togcircle {
+    background-color: black;
+}
+
+.toglight {
+  color: #2B283A;
+}
+main.dark {
+
+  background-color: #282D35;
+  color: white;    
+}
+main{
+  padding: 57px 27px;
+  
+  background-repeat: no-repeat;
+  background-position: right center;
+  flex: 1 1 auto;
+  background-color: white;
+  color: #2B283A;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+nav.dark {
+  background-color: #21222A;
+}
+nav.dark .toglight {
+  color: #918E9B;
+}
+
+.togdark {
+  color: #D5D4D8;
+}
+
+nav.dark .togdark {
+  color: #FFFFFF;
+}
+
+nav.dark .togslider {
+  justify-content: flex-end;
+}
